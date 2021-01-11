@@ -11,6 +11,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  /* background-color: #040404;*/
+  /* background: transparent; */
+  /*-- added ^^ */
 }
 
 a {
@@ -69,7 +72,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  /* background: #040b14; */
+  background: #040404;
   overflow-y: auto;
 }
 
@@ -211,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/zion.jpeg") top center;
   background-size: cover;
 }
 
@@ -556,6 +560,7 @@ section {
   justify-content: center;
 }
 
+
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
@@ -563,6 +568,14 @@ section {
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links p {
+/*background-color: #040404;*/
+background-color: #173b6c;
+text-align: center;
+color: white;
+/*background: transparent;*/
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1052,14 +1065,17 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
+  /*color: #f4f6fd;*/
+  color: #A9A9A9;
+  /*color: black;*/
+  font-size: 6px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  /*background: #040b14;*/
+  background: #040404;
 }
 
 #footer .copyright {
@@ -1069,8 +1085,9 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
+  font-size: 6px;
+  /*color: #eaebf0;*/
+  color: #A9A9A9;
 }
 
 @media (max-width: 1199px) {
