@@ -1,11 +1,9 @@
 <? php
   $name = $_Post['name'];
-  $email=$_POST['email'];
+  $email_from=$_POST['email'];
   $subject=$_POST['subject']
   $message= $_POST['message'];
   
-
-  $email_from=$email;
   $email_body="User Name: $name.\n".
               "User Email: $email.\n".
               "Subject: $subject.\n".
