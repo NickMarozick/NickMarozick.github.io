@@ -3,16 +3,18 @@
   $email_from=$_POST['email'];
   $subject=$_POST['subject']
   $message= $_POST['message'];
-  
-  $email_body="User Name: $name.\n".
-              "User Email: $email.\n".
-              "Subject: $subject.\n".
-              "User Message: $message.\n";
 
   $to = "nmarozick@gmail.com"; 
 
-  $headers = "From: $email_from \r\n";
+  $email_body="";
+  
+  $email_bod.="User Name: ".$name."\r\n";
+  $email_bod.="User Email:." $email."\r\n";
+  $email_bod.="Subject: ".$subject."\r\n";
+  $email_bod.="User Message: ".$message."r\n";
 
-  mail($to,$subject,$email_body,$header);
-  header("Location: index.html");
+  
+
+  mail($to,$subject,$email_body);
+  #header("Location: index.html");
   ?>
