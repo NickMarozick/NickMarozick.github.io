@@ -16,6 +16,10 @@
   }
 
   $contact = new PHP_Email_Form;
+
+  // added 
+  console.log($contact);
+
   $contact->ajax = true;
 
   $contact->to = $receiving_email_address;
